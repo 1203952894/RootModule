@@ -40,3 +40,4 @@ build/
 ### MyConfig
 .idea/
 .gitignore/
+/spring/*/logs
