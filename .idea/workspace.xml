@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="Spring">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/xyz/ccola/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/xyz/ccola/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/xyz/ccola/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/java/xyz/ccola/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_01_quickstart/src/test/java/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_02_baseConfig/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_02_baseConfig/src/main/java/xyz/ccola/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_02_baseConfig/src/main/java/xyz/ccola/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_02_baseConfig/src/main/java/xyz/ccola/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_02_baseConfig/src/main/java/xyz/ccola/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_02_baseConfig/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_02_baseConfig/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_02_baseConfig/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_02_baseConfig/src/test/java/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/java/xyz/ccola/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/java/xyz/ccola/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/java/xyz/ccola/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/java/xyz/ccola/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/java/xyz/ccola/dao/impl/OrderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/java/xyz/ccola/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/java/xyz/ccola/factory/OrderDaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/java/xyz/ccola/factory/UserDaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/java/xyz/ccola/factory/UserDaoFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/java/xyz/ccola/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/java/xyz/ccola/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_03_beanInstance/src/test/java/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_04_beanLifecyle/logs/dayLogFile.2022-12-03.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_04_beanLifecyle/logs/logFile.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_04_beanLifecyle/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_04_beanLifecyle/src/main/java/xyz/ccola/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_04_beanLifecyle/src/main/java/xyz/ccola/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_04_beanLifecyle/src/main/java/xyz/ccola/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_04_beanLifecyle/src/main/java/xyz/ccola/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_04_beanLifecyle/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_04_beanLifecyle/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_04_beanLifecyle/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_04_beanLifecyle/src/test/java/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/logs/dayLogFile.2022-12-03.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/logs/logFile.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/bean/Clazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/bean/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/beanProcessor/MyBeanProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/controller/ClazzController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/dao/ClazzDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/dao/TeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/factoryBean/UserFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/impl/ClazzDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/impl/ClazzServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/impl/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/impl/TeacherDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/service/ClazzService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/java/xyz/ccola/utils/ApplicationContextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/test/java/BeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/test/java/ClazzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/test/java/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/test/java/TeacherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_05_DISet/src/test/java/UserTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2INwcdL4MmsC0H7jBoKP9pWmHL4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/spring/spring_01_quickstart/src/main/resources",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "spring.configuration.checksum": "7527c7f118afc601b8c193c7fbf8bf7d",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_01_quickstart\src\main\resources" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_02_baseConfig\src\main\resources" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_03_beanInstance\src\main\resources" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_04_beanLifecyle\src\main\resources" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_05_DISet\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_03_beanInstance\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TeacherTest">
+    <configuration name="BeanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_05_DISet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BeanTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClazzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_05_DISet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClazzTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_05_DISet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_05_DISet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TeacherTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_05_DISet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TeacherTest" />
+        <item itemvalue="JUnit.StudentTest" />
+        <item itemvalue="JUnit.ClazzTest" />
+        <item itemvalue="JUnit.BeanTest" />
+        <item itemvalue="JUnit.UserTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="" />
+      <created>1670035432479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670035432479</updated>
+      <workItem from="1670035434508" duration="812000" />
+      <workItem from="1670036280617" duration="6011000" />
+      <workItem from="1670042390517" duration="7378000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

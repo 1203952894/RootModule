@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        配置 Bean
+            id：唯一标识符 在同一个上下文配置（配置文件）中不能重复
+            name: 常用于定义别名（使用  , 空格 分号） 相隔
+            scope: 用于配置 Bean 的作用范围（单例、多例）
+                prototype 多例
+                默认 singleton 单例
+        Ebi: Enterprise Business interface 企业业务接口
+    -->
+    <bean id="bookDao" name="dao;bookEbi" class="xyz.ccola.dao.impl.BookDaoImpl" />
+    <bean id="bookService" name="service" class="xyz.ccola.service.impl.BookServiceImpl">
+        <property name="bookDao" ref="bookDao"/>
+    </bean>
+    <bean id="orderDao" class="xyz.ccola.factory.OrderDaoFactory" factory-method="orderDaoFactory"/>
+    <!--通过实例工厂实例化 Bean 配置 Bean 方式 -->
+    <bean id="userFactory" class="xyz.ccola.factory.UserDaoFactory"/>
+    <bean id="userDao" factory-bean="userFactory" factory-method="getUserDao"/>
+    <!--通过实例工厂实例化 Bean 接口方式a-->
+    <bean id="userDao2" class="xyz.ccola.factory.UserDaoFactoryBean"/>
+
+
+</beans>
