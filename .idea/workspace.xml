@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="Spring" />
+    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="整理结构">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +48,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "7527c7f118afc601b8c193c7fbf8bf7d",
+    "spring.configuration.checksum": "268e31872953d86c8194d7070bc912b7",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -134,6 +137,7 @@
       <workItem from="1670035434508" duration="812000" />
       <workItem from="1670036280617" duration="6011000" />
       <workItem from="1670042390517" duration="7680000" />
+      <workItem from="1670064062498" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="Spring">
       <created>1670063752080</created>
@@ -142,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670063752080</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="整理结构">
+      <created>1670064340154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670064340154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +184,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring" />
+    <MESSAGE value="整理结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理结构" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
