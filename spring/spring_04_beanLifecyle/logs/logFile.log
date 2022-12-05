@@ -4,3 +4,9 @@
 2022-12-03 14:02:45.964  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'bookService'
 2022-12-03 14:02:46.006  INFO  [main] BookTest - 方法：testSave 测试通过
 2022-12-03 14:02:46.008  DEBUG [SpringContextShutdownHook] o.s.c.s.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@527740a2, started on Sat Dec 03 14:02:45 CST 2022
+2022-12-05 14:08:21.255  DEBUG [main] o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@210366b4
+2022-12-05 14:08:21.472  DEBUG [main] o.s.b.f.x.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+2022-12-05 14:08:21.533  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'bookDao'
+2022-12-05 14:08:21.564  DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'bookService'
+2022-12-05 14:08:21.625  INFO  [main] BookTest - 方法：testSave 测试通过
+2022-12-05 14:08:21.631  DEBUG [SpringContextShutdownHook] o.s.c.s.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@210366b4, started on Mon Dec 05 14:08:21 CST 2022
