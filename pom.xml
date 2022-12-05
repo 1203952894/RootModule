@@ -18,6 +18,7 @@
         <module>spring/spring_10_container</module>
         <module>spring/spring_11_annotation_bean</module>
         <module>spring/spring_12_annotation_bean_manager</module>
+        <module>spring/spring_13_annotation_DI</module>
     </modules>
 
     <properties>
