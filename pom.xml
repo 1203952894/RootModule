@@ -15,6 +15,7 @@
         <module>spring/spring_04_beanLifecyle</module>
         <module>spring/spring_05_DISet</module>
         <module>spring/spring_09_datasource</module>
+        <module>spring/spring_10_container</module>
     </modules>
 
     <properties>
