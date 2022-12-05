@@ -19,11 +19,11 @@ public class UserConfig {
 
     @Value("${jdbc.driver}")
     private String driver;
-    @Value("jdbc.url")
+    @Value("${jdbc.url}")
     private String url;
-    @Value("jdbc.username")
+    @Value("${jdbc.username}")
     private String userName;
-    @Value("jdbc.password")
+    @Value("${jdbc.password}")
     private String password;
 
     @Bean

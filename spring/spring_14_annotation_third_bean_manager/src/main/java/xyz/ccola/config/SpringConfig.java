@@ -14,7 +14,7 @@ import org.springframework.context.annotation.PropertySource;
 @Configuration
 @ComponentScan(value = {"xyz.ccola"})
 @PropertySource({"classpath:jdbc.properties"})
-@Import(value = {JDBCConfig.class, UserConfig.class})
+@Import(value = {UserConfig.class})
 public class SpringConfig {
 
 }
