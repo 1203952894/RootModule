@@ -2,13 +2,13 @@
 > Time: 2022/12/5 16:11  
 > To: TODO
 
-
 # SpringMVC
+
 ## SpringMVC_day01
 
 **今日内容**
 
->* 理解SpringMVC相关概念
+> * 理解SpringMVC相关概念
 >* 完成SpringMVC的入门案例
 >* 学会使用PostMan工具发送请求和数据
 >* 掌握SpringMVC如何接收请求、数据和响应结果
@@ -188,16 +188,17 @@ SpringMVC的制作过程和上述流程几乎是一致的，具体的实现流�
 ```java
 @Configuration
 @ComponentScan("com.itheima.controller")
-public classets SpringMvcConfig {
+public class SpringMvcConfig {
 }
 ```
 
 ###### 步骤5:创建Controller类
 
 ```java
+
 @Controller
-public classets UserController {
-    
+public class UserController {
+
     @RequestMapping("/save")
     public void save(){
         System.out.println("user save ...");
@@ -211,13 +212,13 @@ public classets UserController {
 将web.xml删除，换成ServletContainersInitConfig
 
 ```java
-public classets ServletContainersInitConfig extends AbstractDispatcherServletInitializer {
+public class ServletContainersInitConfig extends AbstractDispatcherServletInitializer {
     //加载springmvc配置类
     protected WebApplicationContext createServletApplicationContext() {
         //初始化WebApplicationContext对象
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
         //加载指定配置类
-        ctx.register(SpringMvcConfig.classets);
+        ctx.register(SpringMvcConfig.class);
         return ctx;
     }
 
@@ -254,9 +255,10 @@ public classets ServletContainersInitConfig extends AbstractDispatcherServletIni
 前面我们说过现在主要的是前端发送异步请求，后台响应json数据，所以接下来我们把Controller类的save方法进行修改
 
 ```java
+
 @Controller
-public classets UserController {
-    
+public class UserController {
+
     @RequestMapping("/save")
     public String save(){
         System.out.println("user save ...");
@@ -277,9 +279,10 @@ public classets UserController {
 ###### 步骤11:设置返回数据为json
 
 ```java
+
 @Controller
-public classets UserController {
-    
+public class UserController {
+
     @RequestMapping("/save")
     @ResponseBody
     public String save(){
@@ -525,10 +528,10 @@ controller、service和dao这些类都需要被容器管理成bean对象，那�
 - 创建对应的配置类
 
   ```java
-  public classets ServletContainersInitConfig extends AbstractDispatcherServletInitializer {
+  public class ServletContainersInitConfig extends AbstractDispatcherServletInitializer {
       protected WebApplicationContext createServletApplicationContext() {
           AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
-          ctx.register(SpringMvcConfig.classets);
+          ctx.register(SpringMvcConfig.class);
           return ctx;
       }
       protected String[] getServletMappings() {
@@ -541,12 +544,12 @@ controller、service和dao这些类都需要被容器管理成bean对象，那�
   
   @Configuration
   @ComponentScan("com.itheima.controller")
-  public classets SpringMvcConfig {
+  public class SpringMvcConfig {
   }
   
   @Configuration
   @ComponentScan("com.itheima")
-  public classets SpringConfig {
+  public class SpringConfig {
   }
   
   ```
@@ -555,7 +558,7 @@ controller、service和dao这些类都需要被容器管理成bean对象，那�
 
   ```java
   @Controller
-  public classets UserController {
+  public class UserController {
   
       @RequestMapping("/save")
       @ResponseBody
@@ -570,7 +573,7 @@ controller、service和dao这些类都需要被容器管理成bean对象，那�
   }
   
   @Service
-  public classets UserServiceImpl implements UserService {
+  public class UserServiceImpl implements UserService {
       public void save(User user) {
           System.out.println("user service ...");
       }
@@ -580,7 +583,7 @@ controller、service和dao这些类都需要被容器管理成bean对象，那�
       @Insert("insert into tbl_user(name,age)values(#{name},#{age})")
       public void save(User user);
   }
-  public classets User {
+  public class User {
       private Integer id;
       private String name;
       private Integer age;
@@ -599,7 +602,7 @@ controller、service和dao这些类都需要被容器管理成bean对象，那�
 ```java
 @Configuration
 @ComponentScan({"com.itheima.service","comitheima.dao"})
-public classets SpringConfig {
+public class SpringConfig {
 }
 ```
 
@@ -614,10 +617,10 @@ public classets SpringConfig {
 @ComponentScan(value="com.itheima",
     excludeFilters=@ComponentScan.Filter(
     	type = FilterType.ANNOTATION,
-        classetses = Controller.classets
+        classes = Controller.class
     )
 )
-public classets SpringConfig {
+public class SpringConfig {
 }
 ```
 
@@ -626,22 +629,22 @@ public classets SpringConfig {
 * type属性：设置排除规则，当前使用按照bean定义时的注解类型进行排除
 
     * ANNOTATION：按照注解排除
-    * assetsIGNABLE_TYPE:按照指定的类型过滤
+    * ASSIGNABLE_TYPE:按照指定的类型过滤
     * ASPECTJ:按照Aspectj表达式排除，基本上不会用
     * REGEX:按照正则表达式排除
     * CUSTOM:按照自定义规则排除
 
   大家只需要知道第一种ANNOTATION即可
 
-* classetses属性：设置排除的具体注解类，当前设置排除@Controller定义的bean
+* classes属性：设置排除的具体注解类，当前设置排除@Controller定义的bean
 
 如何测试controller类已经被排除掉了?
 
 ```java
-public classets App{
+public class App{
 	public static void main (String[] args){
-        AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(SpringConfig.classets);
-        System.out.println(ctx.getBean(UserController.classets));
+        AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(SpringConfig.class);
+        System.out.println(ctx.getBean(UserController.class));
     }
 }
 ```
@@ -663,10 +666,10 @@ public classets App{
 最后一个问题，有了Spring的配置类，要想在tomcat服务器启动将其加载，我们需要修改ServletContainersInitConfig
 
 ```java
-public classets ServletContainersInitConfig extends AbstractDispatcherServletInitializer {
+public class ServletContainersInitConfig extends AbstractDispatcherServletInitializer {
     protected WebApplicationContext createServletApplicationContext() {
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
-        ctx.register(SpringMvcConfig.classets);
+        ctx.register(SpringMvcConfig.class);
         return ctx;
     }
     protected String[] getServletMappings() {
@@ -674,7 +677,7 @@ public classets ServletContainersInitConfig extends AbstractDispatcherServletIni
     }
     protected WebApplicationContext createRootApplicationContext() {
       AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
-        ctx.register(SpringConfig.classets);
+        ctx.register(SpringConfig.class);
         return ctx;
     }
 }
@@ -683,14 +686,14 @@ public classets ServletContainersInitConfig extends AbstractDispatcherServletIni
 对于上述的配置方式，Spring还提供了一种更简单的配置方式，可以不用再去创建`AnnotationConfigWebApplicationContext`对象，不用手动`register`对应的配置类，如何实现?
 
 ```java
-public classets ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
 
-    protected Classets<?>[] getRootConfigClassetses() {
-        return new Classets[]{SpringConfig.classets};
+    protected Class<?>[] getRootConfigClasses() {
+        return new Class[]{SpringConfig.class};
     }
 
-    protected Classets<?>[] getServletConfigClassetses() {
-        return new Classets[]{SpringMvcConfig.classets};
+    protected Class<?>[] getServletConfigClasses() {
+        return new Class[]{SpringMvcConfig.class};
     }
 
     protected String[] getServletMappings() {
@@ -708,7 +711,7 @@ public classets ServletContainersInitConfig extends AbstractAnnotationConfigDisp
 | 类型     | 类注解                                                       |
 | 位置     | 类定义上方                                                   |
 | 作用     | 设置spring配置类扫描路径，用于加载使用注解格式定义的bean     |
-| 相关属性 | excludeFilters:排除扫描路径中加载的bean,需要指定类别(type)和具体项(classetses)<br/>includeFilters:加载指定的bean，需要指定类别(type)和具体项(classetses) |
+| 相关属性 | excludeFilters:排除扫描路径中加载的bean,需要指定类别(type)和具体项(classes)<br/>includeFilters:加载指定的bean，需要指定类别(type)和具体项(classes) |
 
 ### 3，PostMan工具的使用
 
@@ -818,22 +821,22 @@ public classets ServletContainersInitConfig extends AbstractAnnotationConfigDisp
 - 创建对应的配置类
 
   ```java
-  public classets ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
+  public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
   
-      protected Classets<?>[] getServletConfigClassetses() {
-          return new Classets[]{SpringMvcConfig.classets};
+      protected Class<?>[] getServletConfigClasses() {
+          return new Class[]{SpringMvcConfig.class};
       }
       protected String[] getServletMappings() {
           return new String[]{"/"};
       }
-      protected Classets<?>[] getRootConfigClassetses() {
-          return new Classets[0];
+      protected Class<?>[] getRootConfigClasses() {
+          return new Class[0];
       }
   }
   
   @Configuration
   @ComponentScan("com.itheima.controller")
-  public classets SpringMvcConfig {
+  public class SpringMvcConfig {
   }
   
   ```
@@ -842,7 +845,7 @@ public classets ServletContainersInitConfig extends AbstractAnnotationConfigDisp
 
   ```java
   @Controller
-  public classets UserController {
+  public class UserController {
   
       @RequestMapping("/save")
       @ResponseBody
@@ -860,7 +863,7 @@ public classets ServletContainersInitConfig extends AbstractAnnotationConfigDisp
   }
   
   @Controller
-  public classets BookController {
+  public class BookController {
   
       @RequestMapping("/save")
       @ResponseBody
@@ -903,7 +906,7 @@ public classets ServletContainersInitConfig extends AbstractAnnotationConfigDisp
 
 ```java
 @Controller
-public classets UserController {
+public class UserController {
 
     @RequestMapping("/user/save")
     @ResponseBody
@@ -921,7 +924,7 @@ public classets UserController {
 }
 
 @Controller
-public classets BookController {
+public class BookController {
 
     @RequestMapping("/book/save")
     @ResponseBody
@@ -941,7 +944,7 @@ public classets BookController {
 ```java
 @Controller
 @RequestMapping("/user")
-public classets UserController {
+public class UserController {
 
     @RequestMapping("/save")
     @ResponseBody
@@ -960,7 +963,7 @@ public classets UserController {
 
 @Controller
 @RequestMapping("/book")
-public classets BookController {
+public class BookController {
 
     @RequestMapping("/save")
     @ResponseBody
@@ -1043,22 +1046,22 @@ public classets BookController {
 - 创建对应的配置类
 
   ```java
-  public classets ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
+  public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
   
-      protected Classets<?>[] getServletConfigClassetses() {
-          return new Classets[]{SpringMvcConfig.classets};
+      protected Class<?>[] getServletConfigClasses() {
+          return new Class[]{SpringMvcConfig.class};
       }
       protected String[] getServletMappings() {
           return new String[]{"/"};
       }
-      protected Classets<?>[] getRootConfigClassetses() {
-          return new Classets[0];
+      protected Class<?>[] getRootConfigClasses() {
+          return new Class[0];
       }
   }
   
   @Configuration
   @ComponentScan("com.itheima.controller")
-  public classets SpringMvcConfig {
+  public class SpringMvcConfig {
   }
   
   ```
@@ -1067,7 +1070,7 @@ public classets BookController {
 
   ```java
   @Controller
-  public classets UserController {
+  public class UserController {
   
       @RequestMapping("/commonParam")
       @ResponseBody
@@ -1080,12 +1083,12 @@ public classets BookController {
 * 编写模型类，User和Address
 
   ```java
-  public classets Address {
+  public class Address {
       private String province;
       private String city;
       //setter...getter...略
   }
-  public classets User {
+  public class User {
       private String name;
       private int age;
       //setter...getter...略
@@ -1112,7 +1115,7 @@ http://localhost/commonParam?name=itcast
 
 ```java
 @Controller
-public classets UserController {
+public class UserController {
 
     @RequestMapping("/commonParam")
     @ResponseBody
@@ -1137,7 +1140,7 @@ http://localhost/commonParam?name=itcast&age=15
 
 ```java
 @Controller
-public classets UserController {
+public class UserController {
 
     @RequestMapping("/commonParam")
     @ResponseBody
@@ -1188,7 +1191,7 @@ public classets UserController {
 
 ```java
 @Controller
-public classets UserController {
+public class UserController {
 
     @RequestMapping("/commonParam")
     @ResponseBody
@@ -1215,13 +1218,13 @@ public classets UserController {
 ### 解决方案:配置过滤器
 
 ```java
-public classets ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
-    protected Classets<?>[] getRootConfigClassetses() {
-        return new Classets[0];
+public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
+    protected Class<?>[] getRootConfigClasses() {
+        return new Class[0];
     }
 
-    protected Classets<?>[] getServletConfigClassetses() {
-        return new Classets[]{SpringMvcConfig.classets};
+    protected Class<?>[] getServletConfigClasses() {
+        return new Class[]{SpringMvcConfig.class};
     }
 
     protected String[] getServletMappings() {
@@ -1305,7 +1308,7 @@ public String commonParamDifferentName(String userName , int age){
 此时需要使用前面准备好的POJO类，先来看下User
 
 ```java
-public classets User {
+public class User {
     private String name;
     private int age;
     //setter...getter...略
@@ -1338,12 +1341,12 @@ public String pojoParam(User user){
 如果POJO对象中嵌套了其他的POJO类，如
 
 ```java
-public classets Address {
+public class Address {
     private String province;
     private String city;
     //setter...getter...略
 }
-public classets User {
+public class User {
     private String name;
     private int age;
     private Address address;
@@ -1484,7 +1487,7 @@ SpringMVC默认使用的是jackson来处理json的转换，所以需要在pom.xm
 @ComponentScan("com.itheima.controller")
 //开启json数据类型自动转换
 @EnableWebMvc
-public classets SpringMvcConfig {
+public class SpringMvcConfig {
 }
 ```
 
@@ -1877,13 +1880,13 @@ SpringMVC接收到请求和数据后，进行一些了的处理，当然这个�
 - 创建对应的配置类
 
   ```java
-  public classets ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
-      protected Classets<?>[] getRootConfigClassetses() {
-          return new Classets[0];
+  public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
+      protected Class<?>[] getRootConfigClasses() {
+          return new Class[0];
       }
   
-      protected Classets<?>[] getServletConfigClassetses() {
-          return new Classets[]{SpringMvcConfig.classets};
+      protected Class<?>[] getServletConfigClasses() {
+          return new Class[]{SpringMvcConfig.class};
       }
   
       protected String[] getServletMappings() {
@@ -1903,7 +1906,7 @@ SpringMVC接收到请求和数据后，进行一些了的处理，当然这个�
   @ComponentScan("com.itheima.controller")
   //开启json数据类型自动转换
   @EnableWebMvc
-  public classets SpringMvcConfig {
+  public class SpringMvcConfig {
   }
   
   
@@ -1912,7 +1915,7 @@ SpringMVC接收到请求和数据后，进行一些了的处理，当然这个�
 - 编写模型类User
 
   ```java
-  public classets User {
+  public class User {
       private String name;
       private int age;
       //getter...setter...toString省略
@@ -1933,7 +1936,7 @@ SpringMVC接收到请求和数据后，进行一些了的处理，当然这个�
 
   ```java
   @Controller
-  public classets UserController {
+  public class UserController {
   
       
   }
@@ -1949,7 +1952,7 @@ SpringMVC接收到请求和数据后，进行一些了的处理，当然这个�
 
 ```java
 @Controller
-public classets UserController {
+public class UserController {
     
     @RequestMapping("/toJumpPage")
     //注意
@@ -1976,10 +1979,11 @@ public classets UserController {
 ####### 步骤1:设置返回文本内容
 
 ```java
+
 @Controller
-public classets UserController {
-    
-   	@RequestMapping("/toText")
+public class UserController {
+
+    @RequestMapping("/toText")
 	//注意此处该注解就不能省略，如果省略了,会把response text当前页面名称去查找，如果没有回报404错误
     @ResponseBody
     public String toText(){
@@ -2002,7 +2006,7 @@ public classets UserController {
 
 ```java
 @Controller
-public classets UserController {
+public class UserController {
     
     @RequestMapping("/toJsonPOJO")
     @ResponseBody
@@ -2027,7 +2031,7 @@ public classets UserController {
 
 ```java
 @Controller
-public classets UserController {
+public class UserController {
     
     @RequestMapping("/toJsonList")
     @ResponseBody
@@ -2200,13 +2204,13 @@ public classets UserController {
 - 创建对应的配置类
 
   ```java
-  public classets ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
-      protected Classets<?>[] getRootConfigClassetses() {
-          return new Classets[0];
+  public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
+      protected Class<?>[] getRootConfigClasses() {
+          return new Class[0];
       }
   
-      protected Classets<?>[] getServletConfigClassetses() {
-          return new Classets[]{SpringMvcConfig.classets};
+      protected Class<?>[] getServletConfigClasses() {
+          return new Class[]{SpringMvcConfig.class};
       }
   
       protected String[] getServletMappings() {
@@ -2226,7 +2230,7 @@ public classets UserController {
   @ComponentScan("com.itheima.controller")
   //开启json数据类型自动转换
   @EnableWebMvc
-  public classets SpringMvcConfig {
+  public class SpringMvcConfig {
   }
   
   
@@ -2235,13 +2239,13 @@ public classets UserController {
 - 编写模型类User和Book
 
   ```java
-  public classets User {
+  public class User {
       private String name;
       private int age;
       //getter...setter...toString省略
   }
   
-  public classets Book {
+  public class Book {
       private String name;
       private double price;
        //getter...setter...toString省略
@@ -2252,7 +2256,7 @@ public classets UserController {
 
   ```java
   @Controller
-  public classets UserController {
+  public class UserController {
   	@RequestMapping("/save")
       @ResponseBody
       public String save(@RequestBody User user) {
@@ -2291,7 +2295,7 @@ public classets UserController {
   
   
   @Controller
-  public classets BookController {
+  public class BookController {
       
   	@RequestMapping(value = "/books",method = RequestMethod.POST)
       @ResponseBody
@@ -2355,7 +2359,7 @@ public classets UserController {
 
 ```java
 @Controller
-public classets UserController {
+public class UserController {
 	//设置当前请求方法为POST，表示REST风格中的添加操作
     @RequestMapping(value = "/users",method = RequestMethod.POST)
     @ResponseBody
@@ -2380,7 +2384,7 @@ public classets UserController {
 
 ```java
 @Controller
-public classets UserController {
+public class UserController {
     //设置当前请求方法为DELETE，表示REST风格中的删除操作
 	@RequestMapping(value = "/users",method = RequestMethod.DELETE)
     @ResponseBody
@@ -2406,8 +2410,9 @@ public classets UserController {
 * 在方法的形参前添加@PathVariable注解
 
 ```java
+
 @Controller
-public classets UserController {
+public class UserController {
     //设置当前请求方法为DELETE，表示REST风格中的删除操作
 	@RequestMapping(value = "/users/{id}",method = RequestMethod.DELETE)
     @ResponseBody
@@ -2432,7 +2437,7 @@ public classets UserController {
 
 ```java
 @Controller
-public classets UserController {
+public class UserController {
     //设置当前请求方法为DELETE，表示REST风格中的删除操作
 	@RequestMapping(value = "/users/{id}/{name}",method = RequestMethod.DELETE)
     @ResponseBody
@@ -2446,8 +2451,9 @@ public classets UserController {
 ####### 修改
 
 ```java
+
 @Controller
-public classets UserController {
+public class UserController {
     //设置当前请求方法为PUT，表示REST风格中的修改操作
     @RequestMapping(value = "/users",method = RequestMethod.PUT)
     @ResponseBody
@@ -2470,7 +2476,7 @@ public classets UserController {
 
 ```java
 @Controller
-public classets UserController {
+public class UserController {
     //设置当前请求方法为GET，表示REST风格中的查询操作
     @RequestMapping(value = "/users/{id}" ,method = RequestMethod.GET)
     @ResponseBody
@@ -2489,7 +2495,7 @@ public classets UserController {
 
 ```java
 @Controller
-public classets UserController {
+public class UserController {
     //设置当前请求方法为GET，表示REST风格中的查询操作
     @RequestMapping(value = "/users" ,method = RequestMethod.GET)
     @ResponseBody
@@ -2558,9 +2564,9 @@ public String delete(==@PathVariable== Integer ==id==){
 ```java
 @RestController //@Controller + ReponseBody
 @RequestMapping("/books")
-public classets BookController {
-    
-	//@RequestMapping(method = RequestMethod.POST)
+public class BookController {
+
+    //@RequestMapping(method = RequestMethod.POST)
     @PostMapping
     public String save(@RequestBody Book book){
         System.out.println("book save..." + book);
@@ -2726,13 +2732,13 @@ public classets BookController {
 - 创建对应的配置类
 
   ```java
-  public classets ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
-      protected Classets<?>[] getRootConfigClassetses() {
-          return new Classets[0];
+  public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
+      protected Class<?>[] getRootConfigClasses() {
+          return new Class[0];
       }
   
-      protected Classets<?>[] getServletConfigClassetses() {
-          return new Classets[]{SpringMvcConfig.classets};
+      protected Class<?>[] getServletConfigClasses() {
+          return new Class[]{SpringMvcConfig.class};
       }
   
       protected String[] getServletMappings() {
@@ -2752,7 +2758,7 @@ public classets BookController {
   @ComponentScan("com.itheima.controller")
   //开启json数据类型自动转换
   @EnableWebMvc
-  public classets SpringMvcConfig {
+  public class SpringMvcConfig {
   }
   
   
@@ -2761,7 +2767,7 @@ public classets BookController {
 - 编写模型类Book
 
   ```java
-  public classets Book {
+  public class Book {
       private Integer id;
       private String type;
       private String name;
@@ -2774,7 +2780,7 @@ public classets BookController {
 
   ```java
   @Controller
-  public classets BookController {
+  public class BookController {
   
       
   }
@@ -2791,7 +2797,7 @@ public classets BookController {
 ```java
 @RestController
 @RequestMapping("/books")
-public classets BookController {
+public class BookController {
 
     @PostMapping
     public String save(@RequestBody Book book){
@@ -2876,7 +2882,7 @@ SpringMVC拦截了静态资源，根据/pages/books.html去controller找对应�
 
 ```java
 @Configuration
-public classets SpringMvcSupport extends WebMvcConfigurationSupport {
+public class SpringMvcSupport extends WebMvcConfigurationSupport {
     //设置静态资源访问过滤，当前类需要设置为配置类，并被扫描加载
     @Override
     protected void addResourceHandlers(ResourceHandlerRegistry registry) {
@@ -2896,7 +2902,7 @@ public classets SpringMvcSupport extends WebMvcConfigurationSupport {
 @Configuration
 @ComponentScan({"com.itheima.controller","com.itheima.config"})
 @EnableWebMvc
-public classets SpringMvcConfig {
+public class SpringMvcConfig {
 }
 
 或者
@@ -2904,7 +2910,7 @@ public classets SpringMvcConfig {
 @Configuration
 @ComponentScan("com.itheima")
 @EnableWebMvc
-public classets SpringMvcConfig {
+public class SpringMvcConfig {
 }
 ```
 
@@ -2924,20 +2930,20 @@ public classets SpringMvcConfig {
         <link rel="stylesheet" href="../css/style.css">
     </head>
 
-    <body classets="hold-transition">
+    <body class="hold-transition">
 
         <div id="app">
 
-            <div classets="content-header">
+            <div class="content-header">
                 <h1>图书管理</h1>
             </div>
 
-            <div classets="app-container">
-                <div classets="box">
-                    <div classets="filter-container">
-                        <el-input placeholder="图书名称" style="width: 200px;" classets="filter-item"></el-input>
-                        <el-button classets="dalfBut">查询</el-button>
-                        <el-button type="primary" classets="butT" @click="openSave()">新建</el-button>
+            <div class="app-container">
+                <div class="box">
+                    <div class="filter-container">
+                        <el-input placeholder="图书名称" style="width: 200px;" class="filter-item"></el-input>
+                        <el-button class="dalfBut">查询</el-button>
+                        <el-button type="primary" class="butT" @click="openSave()">新建</el-button>
                     </div>
 
                     <el-table size="small" current-row-key="id" :data="dataList" stripe highlight-current-row>
@@ -2953,9 +2959,9 @@ public classets SpringMvcConfig {
                         </el-table-column>
                     </el-table>
 
-                    <div classets="pagination-container">
+                    <div class="pagination-container">
                         <el-pagination
-                            classets="pagiantion"
+                            class="pagiantion"
                             @current-change="handleCurrentChange"
                             :current-page="pagination.currentPage"
                             :page-size="pagination.pageSize"
@@ -2965,7 +2971,7 @@ public classets SpringMvcConfig {
                     </div>
 
                     <!-- 新增标签弹层 -->
-                    <div classets="add-form">
+                    <div class="add-form">
                         <el-dialog title="新增图书" :visible.sync="dialogFormVisible">
                             <el-form ref="dataAddForm" :model="formData" :rules="rules" label-position="right" label-width="100px">
                                 <el-row>
@@ -2988,7 +2994,7 @@ public classets SpringMvcConfig {
                                     </el-col>
                                 </el-row>
                             </el-form>
-                            <div slot="footer" classets="dialog-footer">
+                            <div slot="footer" class="dialog-footer">
                                 <el-button @click="dialogFormVisible = false">取消</el-button>
                                 <el-button type="primary" @click="saveBook()">确定</el-button>
                             </div>
@@ -3078,8 +3084,8 @@ public classets SpringMvcConfig {
 * 创建一个Maven的web工程
 * pom.xml添加SSM需要的依赖jar包
 * 编写Web项目的入口配置类，实现`AbstractAnnotationConfigDispatcherServletInitializer`重写以下方法
-    * getRootConfigClassetses()	：返回Spring的配置类->需要==SpringConfig==配置类
-    * getServletConfigClassetses() ：返回SpringMVC的配置类->需要==SpringMvcConfig==配置类
+    * getRootConfigClasses()    ：返回Spring的配置类->需要==SpringConfig==配置类
+    * getServletConfigClasses() ：返回SpringMVC的配置类->需要==SpringMvcConfig==配置类
     * getServletMappings()      : 设置SpringMVC请求拦截路径规则
     * getServletFilters()       ：设置过滤器，解决POST请求中文乱码问题
 
@@ -3250,33 +3256,33 @@ pom.xml添加SSM所需要的依赖jar包
 ```java
 @Configuration
 @ComponentScan({"com.itheima.service"})
-@PropertySource("classetspath:jdbc.properties")
-@Import({JdbcConfig.classets,MyBatisConfig.classets})
+@PropertySource("classpath:jdbc.properties")
+@Import({JdbcConfig.class,MyBatisConfig.class})
 @EnableTransactionManagement
-public classets SpringConfig {
+public class SpringConfig {
 }
 ```
 
 ###### 步骤5:创建JdbcConfig配置类
 
 ```java
-public classets JdbcConfig {
+public class JdbcConfig {
     @Value("${jdbc.driver}")
     private String driver;
     @Value("${jdbc.url}")
     private String url;
     @Value("${jdbc.username}")
     private String username;
-    @Value("${jdbc.passetsword}")
-    private String passetsword;
+    @Value("${jdbc.password}")
+    private String password;
 
     @Bean
     public DataSource dataSource(){
         DruidDataSource dataSource = new DruidDataSource();
-        dataSource.setDriverClassetsName(driver);
+        dataSource.setDriverClassName(driver);
         dataSource.setUrl(url);
         dataSource.setUsername(username);
-        dataSource.setPassetsword(passetsword);
+        dataSource.setPassword(password);
         return dataSource;
     }
 
@@ -3292,7 +3298,7 @@ public classets JdbcConfig {
 ###### 步骤6:创建MybatisConfig配置类
 
 ```java
-public classets MyBatisConfig {
+public class MyBatisConfig {
     @Bean
     public SqlSessionFactoryBean sqlSessionFactory(DataSource dataSource){
         SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
@@ -3318,7 +3324,7 @@ public classets MyBatisConfig {
 jdbc.driver=com.mysql.jdbc.Driver
 jdbc.url=jdbc:mysql://localhost:3306/ssm_db
 jdbc.username=root
-jdbc.passetsword=root
+jdbc.password=root
 ```
 
 ###### 步骤8:创建SpringMVC配置类
@@ -3327,26 +3333,29 @@ jdbc.passetsword=root
 @Configuration
 @ComponentScan("com.itheima.controller")
 @EnableWebMvc
-public classets SpringMvcConfig {
+public class SpringMvcConfig {
 }
 ```
 
 ###### 步骤9:创建Web项目入口配置类
 
 ```java
-public classets ServletConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class ServletConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
     //加载Spring配置类
-    protected Classets<?>[] getRootConfigClassetses() {
-        return new Classets[]{SpringConfig.classets};
+    protected Class<?>[] getRootConfigClasses() {
+        return new Class[]{SpringConfig.class};
     }
+
     //加载SpringMVC配置类
-    protected Classets<?>[] getServletConfigClassetses() {
-        return new Classets[]{SpringMvcConfig.classets};
+    protected Class<?>[] getServletConfigClasses() {
+        return new Class[]{SpringMvcConfig.class};
     }
+
     //设置SpringMVC请求地址拦截规则
     protected String[] getServletMappings() {
         return new String[]{"/"};
     }
+
     //设置post请求中文乱码过滤器
     @Override
     protected Filter[] getServletFilters() {
@@ -3382,7 +3391,7 @@ insert  into `tbl_book`(`id`,`type`,`name`,`description`) values (1,'计算机�
 ###### 步骤2:编写模型类
 
 ```java
-public classets Book {
+public class Book {
     private Integer id;
     private String type;
     private String name;
@@ -3456,8 +3465,9 @@ public interface BookService {
 ```
 
 ```java
+
 @Service
-public classets BookServiceImpl implements BookService {
+public class BookServiceImpl implements BookService {
     @Autowired
     private BookDao bookDao;
 
@@ -3511,7 +3521,7 @@ public classets BookServiceImpl implements BookService {
 ```java
 @RestController
 @RequestMapping("/books")
-public classets BookController {
+public class BookController {
 
     @Autowired
     private BookService bookService;
@@ -3552,9 +3562,9 @@ public classets BookController {
 ###### 步骤1:新建测试类
 
 ```java
-@RunWith(SpringJUnit4ClassetsRunner.classets)
-@ContextConfiguration(classetses = SpringConfig.classets)
-public classets BookServiceTest {
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = SpringConfig.class)
+public class BookServiceTest {
 
 }
 ```
@@ -3562,9 +3572,9 @@ public classets BookServiceTest {
 ###### 步骤2:注入Service类
 
 ```java
-@RunWith(SpringJUnit4ClassetsRunner.classets)
-@ContextConfiguration(classetses = SpringConfig.classets)
-public classets BookServiceTest {
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = SpringConfig.class)
+public class BookServiceTest {
 
     @Autowired
     private BookService bookService;
@@ -3578,9 +3588,9 @@ public classets BookServiceTest {
 我们先来对查询进行单元测试。
 
 ```java
-@RunWith(SpringJUnit4ClassetsRunner.classets)
-@ContextConfiguration(classetses = SpringConfig.classets)
-public classets BookServiceTest {
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = SpringConfig.class)
+public class BookServiceTest {
 
     @Autowired
     private BookService bookService;
@@ -3688,10 +3698,10 @@ SSM整合以及功能模块开发完成后，接下来，我们在上述案例�
 根据分析，我们可以设置统一数据返回结果类
 
 ```java
-public classets Result{
-	private Object data;
-	private Integer code;
-	private String msg;
+public class Result {
+    private Object data;
+    private Integer code;
+    private String msg;
 }
 ```
 
@@ -3722,7 +3732,7 @@ public classets Result{
 ####### 步骤1:创建Result类
 
 ```java
-public classets Result {
+public class Result {
     //描述统一格式中的数据
     private Object data;
     //描述统一格式中的编码，用于区分操作，可以简化配置0或1表示成功失败
@@ -3751,7 +3761,7 @@ public classets Result {
 
 ```java
 //状态码
-public classets Code {
+public class Code {
     public static final Integer SAVE_OK = 20011;
     public static final Integer DELETE_OK = 20021;
     public static final Integer UPDATE_OK = 20031;
@@ -3773,7 +3783,7 @@ public classets Code {
 //统一每一个控制器方法返回值
 @RestController
 @RequestMapping("/books")
-public classets BookController {
+public class BookController {
 
     @Autowired
     private BookService bookService;
@@ -3902,9 +3912,9 @@ public Result getById(@PathVariable Integer id) {
 ```java
 //@RestControllerAdvice用于标识当前类为REST风格对应的异常处理器
 @RestControllerAdvice
-public classets ProjectExceptionAdvice {
+public class ProjectExceptionAdvice {
     //除了自定义的异常处理器，保留对Exception类型的异常处理，用于处理非预期的异常
-    @ExceptionHandler(Exception.classets)
+    @ExceptionHandler(Exception.class)
     public void doException(Exception ex){
       	System.out.println("嘿嘿,异常你哪里跑！")
     }
@@ -3940,9 +3950,9 @@ public Result getById(@PathVariable Integer id) {
 ```java
 //@RestControllerAdvice用于标识当前类为REST风格对应的异常处理器
 @RestControllerAdvice
-public classets ProjectExceptionAdvice {
+public class ProjectExceptionAdvice {
     //除了自定义的异常处理器，保留对Exception类型的异常处理，用于处理非预期的异常
-    @ExceptionHandler(Exception.classets)
+    @ExceptionHandler(Exception.class)
     public Result doException(Exception ex){
       	System.out.println("嘿嘿,异常你哪里跑！")
         return new Result(666,null,"嘿嘿,异常你哪里跑！");
@@ -4048,7 +4058,7 @@ public classets ProjectExceptionAdvice {
 
 ```java
 //自定义异常处理器，用于封装异常信息，对异常进行分类
-public classets SystemException extends RuntimeException{
+public class SystemException extends RuntimeException{
     private Integer code;
 
     public Integer getCode() {
@@ -4072,7 +4082,7 @@ public classets SystemException extends RuntimeException{
 }
 
 //自定义异常处理器，用于封装异常信息，对异常进行分类
-public classets BusinessException extends RuntimeException{
+public class BusinessException extends RuntimeException{
     private Integer code;
 
     public Integer getCode() {
@@ -4132,7 +4142,7 @@ public Book getById(Integer id) {
 
 ```java
 //状态码
-public classets Code {
+public class Code {
     public static final Integer SAVE_OK = 20011;
     public static final Integer DELETE_OK = 20021;
     public static final Integer UPDATE_OK = 20031;
@@ -4156,9 +4166,9 @@ public classets Code {
 ```java
 //@RestControllerAdvice用于标识当前类为REST风格对应的异常处理器
 @RestControllerAdvice
-public classets ProjectExceptionAdvice {
+public class ProjectExceptionAdvice {
     //@ExceptionHandler用于设置当前处理器类对应的异常类型
-    @ExceptionHandler(SystemException.classets)
+    @ExceptionHandler(SystemException.class)
     public Result doSystemException(SystemException ex){
         //记录日志
         //发送消息给运维
@@ -4166,13 +4176,13 @@ public classets ProjectExceptionAdvice {
         return new Result(ex.getCode(),null,ex.getMessage());
     }
 
-    @ExceptionHandler(BusinessException.classets)
+    @ExceptionHandler(BusinessException.class)
     public Result doBusinessException(BusinessException ex){
         return new Result(ex.getCode(),null,ex.getMessage());
     }
 
     //除了自定义的异常处理器，保留对Exception类型的异常处理，用于处理非预期的异常
-    @ExceptionHandler(Exception.classets)
+    @ExceptionHandler(Exception.class)
     public Result doOtherException(Exception ex){
         //记录日志
         //发送消息给运维
@@ -4228,7 +4238,7 @@ public classets ProjectExceptionAdvice {
 
   ```java
   @Configuration
-  public classets SpringMvcSupport extends WebMvcConfigurationSupport {
+  public class SpringMvcSupport extends WebMvcConfigurationSupport {
       @Override
       protected void addResourceHandlers(ResourceHandlerRegistry registry) {
           registry.addResourceHandler("/pages/**").addResourceLocations("/pages/");
@@ -4245,7 +4255,7 @@ public classets ProjectExceptionAdvice {
   @Configuration
   @ComponentScan({"com.itheima.controller","com.itheima.config"})
   @EnableWebMvc
-  public classets SpringMvcConfig {
+  public class SpringMvcConfig {
   }
   ```
 
@@ -4400,7 +4410,7 @@ public interface BookDao {
 
 ```java
 @Service
-public classets BookServiceImpl implements BookService {
+public class BookServiceImpl implements BookService {
     @Autowired
     private BookDao bookDao;
 
@@ -4603,27 +4613,27 @@ handleDelete(row) {
 
     </head>
 
-    <body classets="hold-transition">
+    <body class="hold-transition">
 
         <div id="app">
 
-            <div classets="content-header">
+            <div class="content-header">
 
                 <h1>图书管理</h1>
 
             </div>
 
-            <div classets="app-container">
+            <div class="app-container">
 
-                <div classets="box">
+                <div class="box">
 
-                    <div classets="filter-container">
+                    <div class="filter-container">
 
-                        <el-input placeholder="图书名称" v-model="pagination.queryString" style="width: 200px;" classets="filter-item"></el-input>
+                        <el-input placeholder="图书名称" v-model="pagination.queryString" style="width: 200px;" class="filter-item"></el-input>
 
-                        <el-button @click="getAll()" classets="dalfBut">查询</el-button>
+                        <el-button @click="getAll()" class="dalfBut">查询</el-button>
 
-                        <el-button type="primary" classets="butT" @click="handleCreate()">新建</el-button>
+                        <el-button type="primary" class="butT" @click="handleCreate()">新建</el-button>
 
                     </div>
 
@@ -4653,7 +4663,7 @@ handleDelete(row) {
 
                     <!-- 新增标签弹层 -->
 
-                    <div classets="add-form">
+                    <div class="add-form">
 
                         <el-dialog title="新增图书" :visible.sync="dialogFormVisible">
 
@@ -4700,7 +4710,7 @@ handleDelete(row) {
 
                             </el-form>
 
-                            <div slot="footer" classets="dialog-footer">
+                            <div slot="footer" class="dialog-footer">
 
                                 <el-button @click="dialogFormVisible = false">取消</el-button>
 
@@ -4714,7 +4724,7 @@ handleDelete(row) {
 
                     <!-- 编辑标签弹层 -->
 
-                    <div classets="add-form">
+                    <div class="add-form">
 
                         <el-dialog title="编辑检查项" :visible.sync="dialogFormVisible4Edit">
 
@@ -4760,7 +4770,7 @@ handleDelete(row) {
 
                             </el-form>
 
-                            <div slot="footer" classets="dialog-footer">
+                            <div slot="footer" class="dialog-footer">
 
                                 <el-button @click="dialogFormVisible4Edit = false">取消</el-button>
 
@@ -5032,13 +5042,13 @@ handleDelete(row) {
 - 创建对应的配置类
 
   ```java
-  public classets ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
-      protected Classets<?>[] getRootConfigClassetses() {
-          return new Classets[0];
+  public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
+      protected Class<?>[] getRootConfigClasses() {
+          return new Class[0];
       }
   
-      protected Classets<?>[] getServletConfigClassetses() {
-          return new Classets[]{SpringMvcConfig.classets};
+      protected Class<?>[] getServletConfigClasses() {
+          return new Class[]{SpringMvcConfig.class};
       }
   
       protected String[] getServletMappings() {
@@ -5057,7 +5067,7 @@ handleDelete(row) {
   @Configuration
   @ComponentScan({"com.itheima.controller"})
   @EnableWebMvc
-  public classets SpringMvcConfig{
+  public class SpringMvcConfig{
      
   }
   ```
@@ -5065,7 +5075,7 @@ handleDelete(row) {
 - 创建模型类Book
 
   ```java
-  public classets Book {
+  public class Book {
       private String name;
       private double price;
   
@@ -5100,7 +5110,7 @@ handleDelete(row) {
   ```java
   @RestController
   @RequestMapping("/books")
-  public classets BookController {
+  public class BookController {
   
       @PostMapping
       public String save(@RequestBody Book book){
@@ -5148,7 +5158,7 @@ handleDelete(row) {
 @Component
 //定义拦截器类，实现HandlerInterceptor接口
 //注意当前类必须受Spring容器控制
-public classets ProjectInterceptor implements HandlerInterceptor {
+public class ProjectInterceptor implements HandlerInterceptor {
     @Override
     //原始方法调用前执行的内容
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -5175,8 +5185,9 @@ public classets ProjectInterceptor implements HandlerInterceptor {
 ####### 步骤2:配置拦截器类
 
 ```java
+
 @Configuration
-public classets SpringMvcSupport extends WebMvcConfigurationSupport {
+public class SpringMvcSupport extends WebMvcConfigurationSupport {
     @Autowired
     private ProjectInterceptor projectInterceptor;
 
@@ -5199,7 +5210,7 @@ public classets SpringMvcSupport extends WebMvcConfigurationSupport {
 @Configuration
 @ComponentScan({"com.itheima.controller","com.itheima.config"})
 @EnableWebMvc
-public classets SpringMvcConfig{
+public class SpringMvcConfig{
    
 }
 ```
@@ -5215,8 +5226,9 @@ public classets SpringMvcConfig{
 ####### 步骤5:修改拦截器拦截规则
 
 ```java
+
 @Configuration
-public classets SpringMvcSupport extends WebMvcConfigurationSupport {
+public class SpringMvcSupport extends WebMvcConfigurationSupport {
     @Autowired
     private ProjectInterceptor projectInterceptor;
 
@@ -5244,7 +5256,7 @@ public classets SpringMvcSupport extends WebMvcConfigurationSupport {
 @ComponentScan({"com.itheima.controller"})
 @EnableWebMvc
 //实现WebMvcConfigurer接口可以简化开发，但具有一定的侵入性
-public classets SpringMvcConfig implements WebMvcConfigurer {
+public class SpringMvcConfig implements WebMvcConfigurer {
     @Autowired
     private ProjectInterceptor projectInterceptor;
 
@@ -5360,7 +5372,7 @@ ex:如果处理器执行过程中出现异常对象，可以针对异常情况�
 
 ```java
 @Component
-public classets ProjectInterceptor2 implements HandlerInterceptor {
+public class ProjectInterceptor2 implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         System.out.println("preHandle...222");
@@ -5386,7 +5398,7 @@ public classets ProjectInterceptor2 implements HandlerInterceptor {
 @ComponentScan({"com.itheima.controller"})
 @EnableWebMvc
 //实现WebMvcConfigurer接口可以简化开发，但具有一定的侵入性
-public classets SpringMvcConfig implements WebMvcConfigurer {
+public class SpringMvcConfig implements WebMvcConfigurer {
     @Autowired
     private ProjectInterceptor projectInterceptor;
     @Autowired
