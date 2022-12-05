@@ -19,6 +19,7 @@
         <module>spring/spring_11_annotation_bean</module>
         <module>spring/spring_12_annotation_bean_manager</module>
         <module>spring/spring_13_annotation_DI</module>
+        <module>spring/spring_14_annotation_third_bean_manager</module>
     </modules>
 
     <properties>
