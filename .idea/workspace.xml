@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="spring/spring_16_springJunit模块">
-      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/config/JDBCConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/test/java/SpringJunitTest.java" afterDir="false" />
+    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="ROOT模块">
+      <change afterPath="$PROJECT_DIR$/spring/spring_18_Aop_quickstart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +96,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/spring/spring_16_springJunit/src/main/java/xyz/ccola/config",
+    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/spring/spring_18_Aop_quickstart/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -123,11 +116,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_18_Aop_quickstart\src\main\resources" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_16_springJunit\src\main\java\xyz\ccola\config" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_16_springJunit\src\main\java\xyz\ccola" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_16_springJunit\src\main\resources" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_15_springMyBatis\src\main\resources" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_14_annotation_third_bean_manager\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\help-module\cfg" />
@@ -139,21 +132,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringJunitTest.testFindAll">
-    <configuration name="AnnotationThirdBeanTest.testDruidBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_14_annotation_third_bean_manager" />
+  <component name="RunManager" selected="JUnit.SpringAopTest.testAop">
+    <configuration name="SpringAopTest.testAop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_18_Aop_quickstart" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnnotationThirdBeanTest" />
-      <option name="METHOD_NAME" value="testDruidBean" />
+      <option name="MAIN_CLASS_NAME" value="SpringAopTest" />
+      <option name="METHOD_NAME" value="testAop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnnotationThirdBeanTest.testInitModule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_14_annotation_third_bean_manager" />
+    <configuration name="SpringAopTest.testInitModule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_18_Aop_quickstart" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnnotationThirdBeanTest" />
+      <option name="MAIN_CLASS_NAME" value="SpringAopTest" />
       <option name="METHOD_NAME" value="testInitModule" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -192,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringAopTest.testAop" />
+        <item itemvalue="JUnit.SpringAopTest.testInitModule" />
         <item itemvalue="JUnit.SpringJunitTest.testFindAll" />
         <item itemvalue="JUnit.SpringJunitTest.testInitModul2e" />
         <item itemvalue="JUnit.SpringJunitTest.testInitModule" />
-        <item itemvalue="JUnit.AnnotationThirdBeanTest.testDruidBean" />
-        <item itemvalue="JUnit.AnnotationThirdBeanTest.testInitModule" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +217,7 @@
       <workItem from="1670124425254" duration="2162000" />
       <workItem from="1670126790007" duration="2133000" />
       <workItem from="1670128950334" duration="20506000" />
-      <workItem from="1670212841712" duration="10174000" />
+      <workItem from="1670212841712" duration="11741000" />
     </task>
     <task id="LOCAL-00001" summary="Spring">
       <created>1670063752080</created>
@@ -415,7 +408,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670223995236</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="spring/spring_16_springJunit模块">
+      <created>1670224013927</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1670224013927</updated>
+    </task>
+    <task id="LOCAL-00029" summary="ROOT模块">
+      <created>1670224027454</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670224027454</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +479,8 @@
     <MESSAGE value="spring/spring_04_beanLifecyle模块" />
     <MESSAGE value="spring/spring_15_springMyBatis模块" />
     <MESSAGE value="spring/spring_16_springJunit模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring/spring_16_springJunit模块" />
+    <MESSAGE value="ROOT模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="ROOT模块" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
