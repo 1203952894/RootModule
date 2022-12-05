@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="spring_10_container 模块 初始化">
+    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="spring_10_container 模块">
+      <change afterPath="$PROJECT_DIR$/spring/spring_11_annotation_bean/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring_10_container/src/main/java/xyz/ccola/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_10_container/src/main/java/xyz/ccola/service/impl/BookServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +28,8 @@
         <option value="MarkDown" />
         <option value="Empty" />
         <option value="jdbc.properties" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,7 +96,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/spring/spring_10_container/src/main/resources",
+    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/spring/spring_11_annotation_bean/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -107,11 +111,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_11_annotation_bean\src\main\resources" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_11_annotation_bean\src\main\java\xyz" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_10_container\src\main\resources" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_10_container\src\main\java\xyz" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_09_datasource\src\main\java\xyz" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_09_datasource\src\main\resources" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\help-module" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\help-module\cfg" />
@@ -122,12 +126,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContainerTest.testGetBeanByClassPathXMLLazy">
-    <configuration name="ContainerTest.testGetBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_10_container" />
+  <component name="RunManager" selected="JUnit.AnnotationBeanTest.testServiceAnnotation">
+    <configuration name="AnnotationBeanTest.testInitModule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_11_annotation_bean" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ContainerTest" />
-      <option name="METHOD_NAME" value="testGetBean" />
+      <option name="MAIN_CLASS_NAME" value="AnnotationBeanTest" />
+      <option name="METHOD_NAME" value="testInitModule" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationBeanTest.testServiceAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_11_annotation_bean" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnnotationBeanTest" />
+      <option name="METHOD_NAME" value="testServiceAnnotation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,23 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataSourceTest.testGetNameByProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_09_datasource" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DataSourceTest" />
-      <option name="METHOD_NAME" value="testGetNameByProperties" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnnotationBeanTest.testServiceAnnotation" />
+        <item itemvalue="JUnit.AnnotationBeanTest.testInitModule" />
         <item itemvalue="JUnit.ContainerTest.testGetBeanByClassPathXMLLazy" />
         <item itemvalue="JUnit.ContainerTest.testGetBeanByBeanFactory" />
         <item itemvalue="JUnit.ContainerTest.testGetBeanByFileSystemXML" />
-        <item itemvalue="JUnit.ContainerTest.testGetBean" />
-        <item itemvalue="JUnit.DataSourceTest.testGetNameByProperties" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +210,7 @@
       <workItem from="1670122858530" duration="1533000" />
       <workItem from="1670124425254" duration="2162000" />
       <workItem from="1670126790007" duration="2133000" />
-      <workItem from="1670128950334" duration="12595000" />
+      <workItem from="1670128950334" duration="13411000" />
     </task>
     <task id="LOCAL-00001" summary="Spring">
       <created>1670063752080</created>
@@ -292,7 +296,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670201495878</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="RootModule">
+      <created>1670202617919</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670202617919</updated>
+    </task>
+    <task id="LOCAL-00014" summary="spring_10_container 模块">
+      <created>1670202656336</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670202656336</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +351,9 @@
     <MESSAGE value="idea 配置" />
     <MESSAGE value="添加 spring_10_container 模块" />
     <MESSAGE value="spring_10_container 模块 初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring_10_container 模块 初始化" />
+    <MESSAGE value="RootModule" />
+    <MESSAGE value="spring_10_container 模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring_10_container 模块" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

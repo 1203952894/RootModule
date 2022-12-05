@@ -16,6 +16,7 @@
         <module>spring/spring_05_DISet</module>
         <module>spring/spring_09_datasource</module>
         <module>spring/spring_10_container</module>
+        <module>spring/spring_11_annotation_bean</module>
     </modules>
 
     <properties>
