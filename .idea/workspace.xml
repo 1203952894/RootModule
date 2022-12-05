@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="spring_15_springMyBatis 模块">
-      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_04_beanLifecyle/logs/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_04_beanLifecyle/logs/logFile.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_05_DISet/logs/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_05_DISet/logs/logFile.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/xyz/ccola/config/JDBCConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/xyz/ccola/config/JDBCConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/xyz/ccola/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/xyz/ccola/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/xyz/ccola/config/UserConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/xyz/ccola/config/UserConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_15_springMyBatis/src/main/java/xyz/ccola/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_15_springMyBatis/src/main/java/xyz/ccola/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_15_springMyBatis/src/test/java/SpringMyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_15_springMyBatis/src/test/java/SpringMyBatisTest.java" afterDir="false" />
+    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="spring/spring_16_springJunit模块">
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/config/JDBCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/java/xyz/ccola/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring_16_springJunit/src/test/java/SpringJunitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +224,7 @@
       <workItem from="1670124425254" duration="2162000" />
       <workItem from="1670126790007" duration="2133000" />
       <workItem from="1670128950334" duration="20506000" />
-      <workItem from="1670212841712" duration="9765000" />
+      <workItem from="1670212841712" duration="10174000" />
     </task>
     <task id="LOCAL-00001" summary="Spring">
       <created>1670063752080</created>
@@ -373,7 +373,49 @@
       <option name="project" value="LOCAL" />
       <updated>1670215226418</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="spring_16_springJunit模块">
+      <created>1670223877629</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1670223877629</updated>
+    </task>
+    <task id="LOCAL-00023" summary="spring_15_springMyBatis模块">
+      <created>1670223911691</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1670223911691</updated>
+    </task>
+    <task id="LOCAL-00024" summary="spring_14_annotation_third_bean_manager模块">
+      <created>1670223947929</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670223947929</updated>
+    </task>
+    <task id="LOCAL-00025" summary="spring/spring_05_DISet模块">
+      <created>1670223963396</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1670223963396</updated>
+    </task>
+    <task id="LOCAL-00026" summary="spring/spring_04_beanLifecyle模块">
+      <created>1670223975682</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1670223975682</updated>
+    </task>
+    <task id="LOCAL-00027" summary="spring/spring_15_springMyBatis模块">
+      <created>1670223995236</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1670223995236</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +465,14 @@
     <MESSAGE value="spring_12_annotation_bean_manager 模块" />
     <MESSAGE value="spring_14_annotation_third_bean_manager 模块" />
     <MESSAGE value="spring_15_springMyBatis 模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring_15_springMyBatis 模块" />
+    <MESSAGE value="spring_16_springJunit模块" />
+    <MESSAGE value="spring_15_springMyBatis模块" />
+    <MESSAGE value="spring_14_annotation_third_bean_manager模块" />
+    <MESSAGE value="spring/spring_05_DISet模块" />
+    <MESSAGE value="spring/spring_04_beanLifecyle模块" />
+    <MESSAGE value="spring/spring_15_springMyBatis模块" />
+    <MESSAGE value="spring/spring_16_springJunit模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring/spring_16_springJunit模块" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
