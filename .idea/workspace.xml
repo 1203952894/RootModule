@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="spring_12_annotation_bean_manager 模块">
-      <change afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/pom.xml" afterDir="false" />
+    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="spring_14_annotation_third_bean_manager 模块">
+      <change afterPath="$PROJECT_DIR$/spring/spring_15_springMyBatis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/xyz/ccola/config/UserConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_14_annotation_third_bean_manager/src/main/java/xyz/ccola/config/UserConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,7 @@
         <option value="jdbc.properties" />
         <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="mybatis-config" />
         <option value="Class" />
       </list>
     </option>
@@ -96,7 +96,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/spring/spring_14_annotation_third_bean_manager/src/main/resources",
+    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/spring/spring_15_springMyBatis/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -104,18 +104,23 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "spring.configuration.checksum": "268e31872953d86c8194d7070bc912b7",
+    "spring.configuration.checksum": "64a4a840b7665e957335e54583efb4e6",
     "vue.rearranger.settings.migration": "true",
     "writerside.last.selected.productRootModule": "r"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_15_springMyBatis\src\main\resources" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_14_annotation_third_bean_manager\src\main\resources" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_13_annotation_DI\src\main\resources" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_12_annotation_bean_manager\src\main\resources" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_11_annotation_bean\src\main\resources" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_11_annotation_bean\src\main\java\xyz" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\help-module\cfg" />
@@ -127,23 +132,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AnnotationThirdBeanTest.testUserBean">
-    <configuration name="AnnotationDITest.testDI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_13_annotation_DI" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnnotationDITest" />
-      <option name="METHOD_NAME" value="testDI" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnnotationDITest.testInitModule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_13_annotation_DI" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnnotationDITest" />
-      <option name="METHOD_NAME" value="testInitModule" />
-      <option name="TEST_OBJECT" value="method" />
+  <component name="RunManager" selected="JUnit.SpringMyBatisTest.testInitModule">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.ccola.test" />
+      <module name="spring_15_springMyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.ccola.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,13 +176,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringMyBatisTest.testInitModule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_15_springMyBatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpringMyBatisTest" />
+      <option name="METHOD_NAME" value="testInitModule" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringMyBatisTest.testInitModule" />
+        <item itemvalue="应用程序.test" />
         <item itemvalue="JUnit.AnnotationThirdBeanTest.testUserBean" />
         <item itemvalue="JUnit.AnnotationThirdBeanTest.testDruidBean" />
         <item itemvalue="JUnit.AnnotationThirdBeanTest.testInitModule" />
-        <item itemvalue="JUnit.AnnotationDITest.testDI" />
-        <item itemvalue="JUnit.AnnotationDITest.testInitModule" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +219,8 @@
       <workItem from="1670122858530" duration="1533000" />
       <workItem from="1670124425254" duration="2162000" />
       <workItem from="1670126790007" duration="2133000" />
-      <workItem from="1670128950334" duration="18742000" />
+      <workItem from="1670128950334" duration="20506000" />
+      <workItem from="1670212841712" duration="2095000" />
     </task>
     <task id="LOCAL-00001" summary="Spring">
       <created>1670063752080</created>
@@ -339,7 +348,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670209317228</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="spring_14_annotation_third_bean_manager 模块">
+      <created>1670211345607</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670211345607</updated>
+    </task>
+    <task id="LOCAL-00020" summary="spring_14_annotation_third_bean_manager 模块">
+      <created>1670211372396</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670211372396</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +410,8 @@
     <MESSAGE value="spring_10_container 模块" />
     <MESSAGE value="spring_11_annotation 模块" />
     <MESSAGE value="spring_12_annotation_bean_manager 模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring_12_annotation_bean_manager 模块" />
+    <MESSAGE value="spring_14_annotation_third_bean_manager 模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring_14_annotation_third_bean_manager 模块" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
