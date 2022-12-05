@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="ROOT模块">
-      <change afterPath="$PROJECT_DIR$/spring/spring_18_Aop_quickstart/pom.xml" afterDir="false" />
+    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="spring_18_Aop_quickstart 模块">
+      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_01_quickstart/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_01_quickstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_01_quickstart/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -23,12 +26,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="MarkDown" />
         <option value="Empty" />
         <option value="jdbc.properties" />
         <option value="spring-beans.schema" />
         <option value="mybatis-config" />
         <option value="Interface" />
+        <option value="MarkDown" />
         <option value="Class" />
       </list>
     </option>
@@ -80,6 +83,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
   <component name="ProjectId" id="2INwcdL4MmsC0H7jBoKP9pWmHL4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -96,14 +102,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/spring/spring_18_Aop_quickstart/src/main/resources",
+    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/springMvc/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "spring.configuration.checksum": "64a4a840b7665e957335e54583efb4e6",
     "vue.rearranger.settings.migration": "true",
     "writerside.last.selected.productRootModule": "r"
@@ -116,11 +122,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\assets" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_18_Aop_quickstart\src\main\resources" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_16_springJunit\src\main\java\xyz\ccola\config" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_16_springJunit\src\main\java\xyz\ccola" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_16_springJunit\src\main\resources" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_15_springMyBatis\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\help-module\cfg" />
@@ -132,7 +138,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringAopTest.testAop">
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 9.0.56">
     <configuration name="SpringAopTest.testAop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_18_Aop_quickstart" />
       <option name="PACKAGE_NAME" value="" />
@@ -183,6 +189,103 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 9.0.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="springMvc_01_quickstart:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/springMvc_01_quickstart_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="c90a0a2b-7ec4-4309-ad67-f91abb39b8e9" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54837" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springMvc_01_quickstart:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SpringAopTest.testAop" />
+      <item itemvalue="JUnit.SpringAopTest.testInitModule" />
+      <item itemvalue="JUnit.SpringJunitTest.testFindAll" />
+      <item itemvalue="JUnit.SpringJunitTest.testInitModul2e" />
+      <item itemvalue="JUnit.SpringJunitTest.testInitModule" />
+      <item itemvalue="Tomcat 服务器.Tomcat 9.0.56" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SpringAopTest.testAop" />
@@ -217,7 +320,7 @@
       <workItem from="1670124425254" duration="2162000" />
       <workItem from="1670126790007" duration="2133000" />
       <workItem from="1670128950334" duration="20506000" />
-      <workItem from="1670212841712" duration="11741000" />
+      <workItem from="1670212841712" duration="14696000" />
     </task>
     <task id="LOCAL-00001" summary="Spring">
       <created>1670063752080</created>
@@ -422,7 +525,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670224027454</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="ROOT模块">
+      <created>1670227600020</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1670227600020</updated>
+    </task>
+    <task id="LOCAL-00031" summary="spring_18_Aop_quickstart 模块">
+      <created>1670227613950</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1670227613950</updated>
+    </task>
+    <task id="LOCAL-00032" summary="spring_18_Aop_quickstart 模块">
+      <created>1670227623011</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1670227623011</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Spring" />
     <MESSAGE value="整理结构" />
     <MESSAGE value="去除 Logs 目录" />
     <MESSAGE value="添加 spring_09_datasource 至 RootModule" />
@@ -480,7 +603,8 @@
     <MESSAGE value="spring/spring_15_springMyBatis模块" />
     <MESSAGE value="spring/spring_16_springJunit模块" />
     <MESSAGE value="ROOT模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="ROOT模块" />
+    <MESSAGE value="spring_18_Aop_quickstart 模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring_18_Aop_quickstart 模块" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
