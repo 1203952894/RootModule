@@ -17,6 +17,7 @@
         <module>spring/spring_09_datasource</module>
         <module>spring/spring_10_container</module>
         <module>spring/spring_11_annotation_bean</module>
+        <module>spring/spring_12_annotation_bean_manager</module>
     </modules>
 
     <properties>
@@ -89,6 +90,12 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.47</version>
+        </dependency>
+        <!--获取对象内存地址-->
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.9</version>
         </dependency>
 
     </dependencies>
