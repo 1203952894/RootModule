@@ -41,4 +41,4 @@ build/
 .idea/
 .gitignore/
 /spring/*/logs
-/springMvc/SpringMVCREADME.html
+/springMvc/SpringMVCREADME.html/
