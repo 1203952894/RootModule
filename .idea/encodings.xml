@@ -33,6 +33,8 @@
     <file url="file://$PROJECT_DIR$/springMvc/springMvc_01_quickstart/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMvc/springMvc_02_bean_load/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMvc/springMvc_02_bean_load/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMvc/springMvc_03_request_mapping/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMvc/springMvc_03_request_mapping/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

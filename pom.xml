@@ -25,6 +25,7 @@
         <module>spring/spring_18_Aop_quickstart</module>
         <module>springMvc/springMvc_01_quickstart</module>
         <module>springMvc/springMvc_02_bean_load</module>
+        <module>springMvc/springMvc_03_request_mapping</module>
     </modules>
 
     <properties>
