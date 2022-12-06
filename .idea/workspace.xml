@@ -11,14 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="springMvc_03_request_mapping">
       <change afterPath="$PROJECT_DIR$/springMvc/SpringMVCREADME.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_03_request_mapping/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_03_request_mapping/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_03_request_mapping/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_03_request_mapping/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMvc/springMvc_03_request_mapping/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/springMvc/springMvc_03_request_mapping/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +117,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "restfulFastRequest",
-    "spring.configuration.checksum": "3cf07d4c4fd54705d330e5f445261801",
+    "spring.configuration.checksum": "b72ea2a6122b37f2a3afc47c4ddd147f",
     "vue.rearranger.settings.migration": "true",
     "writerside.last.selected.productRootModule": "r"
   },
