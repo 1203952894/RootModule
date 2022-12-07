@@ -26,6 +26,10 @@
         <module>springMvc/springMvc_01_quickstart</module>
         <module>springMvc/springMvc_02_bean_load</module>
         <module>springMvc/springMvc_03_request_mapping</module>
+        <module>springMvc/springMvc_04_request_param</module>
+        <module>springMvc/springMvc_05_response</module>
+        <module>springMvc/springMvc_04_request_params</module>
+        <module>springMvc/springMvc_06_rest</module>
     </modules>
 
     <properties>
