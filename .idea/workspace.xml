@@ -2,35 +2,34 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="springMvc_01_quickstart:war" />
+      <artifact name="springMvc_01_quickstart:war exploded" />
+      <artifact name="springMvc_02_bean_load:war" />
+      <artifact name="springMvc_02_bean_load:war exploded" />
+      <artifact name="springMvc_03_request_mapping:war" />
+      <artifact name="springMvc_03_request_mapping:war exploded" />
+      <artifact name="springMvc_04_request_param:war" />
+      <artifact name="springMvc_04_request_param:war exploded" />
+      <artifact name="springMvc_04_request_params:war" />
+      <artifact name="springMvc_04_request_params:war exploded" />
+      <artifact name="springMvc_05_response:war" />
+      <artifact name="springMvc_05_response:war exploded" />
       <artifact name="springMvc_06_rest:war" />
+      <artifact name="springMvc_06_rest:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="springMvc_03_request_mapping">
-      <change afterPath="$PROJECT_DIR$/springMvc/SpringMVCREADME.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_04_request_param/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_04_request_param/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_04_request_param/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_04_request_param/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_04_request_params/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_04_request_params/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_04_request_params/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_04_request_params/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_05_response/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_05_response/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_05_response/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_05_response/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_06_rest/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_06_rest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_06_rest/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_06_rest/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="mp3">
+      <change afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/demo/Cola.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonDays/day_01_playPiano/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/SpringReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/SpringReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring_18_Aop_quickstart/src/main/java/xyz/ccola/advice/MyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_18_Aop_quickstart/src/main/java/xyz/ccola/advice/MyAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springMvc/SpringMVCREADME.md" beforeDir="false" afterPath="$PROJECT_DIR$/springMvc/SpringMVCREADME.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,10 +49,10 @@
         <option value="jdbc.properties" />
         <option value="spring-beans.schema" />
         <option value="mybatis-config" />
-        <option value="MarkDown" />
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="MarkDown" />
       </list>
     </option>
   </component>
@@ -130,15 +129,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/springMvc/springMvc_06_rest/src/main/resources",
+    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/colaDoc/my-docs/src/demo",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "restfulFastRequest",
-    "spring.configuration.checksum": "5e113aa7529dabce15666e4817473c05",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "b1e4d27a44688456f1a395d086505db4",
+    "ts.external.directory.path": "C:\\Users\\q1203\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\222.4345.14\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true",
     "writerside.last.selected.productRootModule": "r"
   },
@@ -150,11 +150,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_06_rest\src\main\resources" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_04_request_params\src\main\resources" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_04_request_params\src\main\java\xyz" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_04_request_param\src\main\resources" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_04_request_param\src\main\java\xyz" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\colaDoc\my-docs\src\demo" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\colaDoc\my-docs\src\.vuepress\public" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\commonDays\day_01_playPiano" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\commonDays\day_01_playPiano\src\main\java\xyz\ccola" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\commonDays\day_01_playPiano\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_05_response\src\main\webapp\user" />
@@ -167,13 +167,29 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat 服务器.Tomcat 9.0.56">
-    <configuration name="RequestMappingTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springMvc_03_request_mapping" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RequestMappingTest" />
-      <option name="METHOD_NAME" value="testGetAll" />
-      <option name="TEST_OBJECT" value="method" />
+  <component name="RunManager" selected="npm.docs:build">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.ccola.test.Test1" />
+      <module name="day_01_playPiano" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.ccola.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.ccola.test.Test2" />
+      <module name="day_01_playPiano" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.ccola.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,34 +204,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringAopTest.testInitModule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_18_Aop_quickstart" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpringAopTest" />
-      <option name="METHOD_NAME" value="testInitModule" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringJunitTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_16_springJunit" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpringJunitTest" />
-      <option name="METHOD_NAME" value="testFindAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="springMvc_06_rest:war">
+        <file path="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/dist">
           <settings>
-            <option name="CONTEXT_PATH" value="/springMvc_06_rest_war" />
+            <option name="CONTEXT_PATH" value="/dist" />
           </settings>
-        </artifact>
+        </file>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="c90a0a2b-7ec4-4309-ad67-f91abb39b8e9" />
@@ -290,24 +286,44 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="springMvc_06_rest:war" />
-        </option>
+        <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
+    <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/colaDoc/my-docs/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docs:build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="docs:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/colaDoc/my-docs/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docs:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="JUnit.RequestMappingTest.testGetAll" />
       <item itemvalue="JUnit.SpringAopTest.testAop" />
-      <item itemvalue="JUnit.SpringAopTest.testInitModule" />
-      <item itemvalue="JUnit.SpringJunitTest.testFindAll" />
+      <item itemvalue="npm.docs:build" />
+      <item itemvalue="npm.docs:dev" />
       <item itemvalue="Tomcat 服务器.Tomcat 9.0.56" />
+      <item itemvalue="应用程序.Test1" />
+      <item itemvalue="应用程序.Test2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RequestMappingTest.testGetAll" />
+        <item itemvalue="npm.docs:build" />
+        <item itemvalue="npm.docs:dev" />
+        <item itemvalue="应用程序.Test2" />
+        <item itemvalue="应用程序.Test1" />
         <item itemvalue="JUnit.SpringAopTest.testAop" />
-        <item itemvalue="JUnit.SpringAopTest.testInitModule" />
-        <item itemvalue="JUnit.SpringJunitTest.testFindAll" />
       </list>
     </recent_temporary>
   </component>
@@ -342,6 +358,10 @@
       <workItem from="1670302081237" duration="4221000" />
       <workItem from="1670399019037" duration="5252000" />
       <workItem from="1670415362660" duration="7605000" />
+      <workItem from="1670423227446" duration="131000" />
+      <workItem from="1670474999514" duration="9848000" />
+      <workItem from="1670562640644" duration="4257000" />
+      <workItem from="1670643415568" duration="3484000" />
     </task>
     <task id="LOCAL-00001" summary="Spring">
       <created>1670063752080</created>
@@ -637,7 +657,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670299392283</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="springMvc_06_rest">
+      <created>1670423293678</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1670423293678</updated>
+    </task>
+    <task id="LOCAL-00044" summary="mp3">
+      <created>1670646901117</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1670646901117</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,8 +716,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="排除 spring_09_datasource 模块的 Logs 目录" />
-    <MESSAGE value="添加 assets 与 md文件" />
     <MESSAGE value="spring_09_datasource 模块初始化" />
     <MESSAGE value="idea 配置" />
     <MESSAGE value="添加 spring_10_container 模块" />
@@ -707,7 +739,9 @@
     <MESSAGE value="springMvc_01_quickstart 模块" />
     <MESSAGE value="springMvc_02_bean_load" />
     <MESSAGE value="why" />
-    <option name="LAST_COMMIT_MESSAGE" value="why" />
+    <MESSAGE value="springMvc_06_rest" />
+    <MESSAGE value="mp3" />
+    <option name="LAST_COMMIT_MESSAGE" value="mp3" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

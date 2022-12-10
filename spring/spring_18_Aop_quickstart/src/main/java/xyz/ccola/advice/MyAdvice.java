@@ -1,8 +1,6 @@
 package xyz.ccola.advice;
 
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
 /**
@@ -16,10 +14,27 @@ import org.springframework.stereotype.Component;
 public class MyAdvice {
 
     @Pointcut("execution(void xyz.ccola.dao.impl.BookDaoImpl.update())")
-    private void pt(){}
+    private void pt() {
+    }
 
     @Before("pt()")
-    public void method(){
-        System.out.println(System.currentTimeMillis());
+    public void beforeMethod() {
+        System.out.println("beforeMethod");
+    }
+
+    @After("pt()")
+    public void AfterMethod() {
+        System.out.println("AfterMethod");
+    }
+
+
+    @AfterReturning("pt()")
+    public void AfterReturningMethod() {
+        System.out.println("AfterReturningMethod");
+    }
+
+    @AfterThrowing("pt()")
+    public void AfterThrowingMethod() {
+        System.out.println("AfterThrowingMethod");
     }
 }
