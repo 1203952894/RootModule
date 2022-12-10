@@ -6,7 +6,7 @@
 
 ## SpringMVC_day01
 
-**今日内容**
+# **今日内容**
 
 > * 理解SpringMVC相关概念
 >* 完成SpringMVC的入门案例

@@ -22,14 +22,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="mp3">
-      <change afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/demo/Cola.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonDays/day_01_playPiano/pom.xml" afterDir="false" />
+    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="doc init">
+      <change afterPath="$PROJECT_DIR$/commonDays/day_02_ChirstMass2022_XiaoEr_Z/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/navbar/zh.ts" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/navbar/zh.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/sidebar/zh.ts" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/sidebar/zh.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/SpringReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/SpringReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring_18_Aop_quickstart/src/main/java/xyz/ccola/advice/MyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring_18_Aop_quickstart/src/main/java/xyz/ccola/advice/MyAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springMvc/SpringMVCREADME.md" beforeDir="false" afterPath="$PROJECT_DIR$/springMvc/SpringMVCREADME.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +53,7 @@
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
         <option value="MarkDown" />
       </list>
     </option>
@@ -123,13 +125,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "DefaultPlantUmlFileTemplate": "Empty",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/colaDoc/my-docs/src/demo",
+    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/commonDays/day_02_ChirstMass2022_XiaoEr_Z/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -150,13 +153,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\commonDays\day_02_ChirstMass2022_XiaoEr_Z\src\main\resources" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\colaDoc\my-docs\src\demo" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\colaDoc\my-docs\src\.vuepress\public" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\commonDays\day_01_playPiano" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\commonDays\day_01_playPiano\src\main\java\xyz\ccola" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\commonDays\day_01_playPiano\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\commonDays\day_02_ChirstMass2022_XiaoEr_Z\src\main\resources" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_05_response\src\main\webapp\user" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\help-module\cfg" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\help-module" />
@@ -361,7 +365,7 @@
       <workItem from="1670423227446" duration="131000" />
       <workItem from="1670474999514" duration="9848000" />
       <workItem from="1670562640644" duration="4257000" />
-      <workItem from="1670643415568" duration="3484000" />
+      <workItem from="1670643415568" duration="14722000" />
     </task>
     <task id="LOCAL-00001" summary="Spring">
       <created>1670063752080</created>
@@ -671,7 +675,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670646901117</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="doc init">
+      <created>1670647140585</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1670647140585</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -716,7 +727,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spring_09_datasource 模块初始化" />
     <MESSAGE value="idea 配置" />
     <MESSAGE value="添加 spring_10_container 模块" />
     <MESSAGE value="spring_10_container 模块 初始化" />
@@ -741,7 +751,8 @@
     <MESSAGE value="why" />
     <MESSAGE value="springMvc_06_rest" />
     <MESSAGE value="mp3" />
-    <option name="LAST_COMMIT_MESSAGE" value="mp3" />
+    <MESSAGE value="doc init" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc init" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
