@@ -22,12 +22,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="doc init">
+    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/demo/markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/demo/markdown.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/study01.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/study01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/study02.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/study02.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +357,7 @@
       <workItem from="1670423227446" duration="131000" />
       <workItem from="1670474999514" duration="9848000" />
       <workItem from="1670562640644" duration="4257000" />
-      <workItem from="1670643415568" duration="19485000" />
+      <workItem from="1670643415568" duration="20560000" />
     </task>
     <task id="LOCAL-00001" summary="Spring">
       <created>1670063752080</created>
@@ -685,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670669260388</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="image">
+      <created>1670754324747</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1670754324747</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -730,7 +733,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="idea 配置" />
     <MESSAGE value="添加 spring_10_container 模块" />
     <MESSAGE value="spring_10_container 模块 初始化" />
     <MESSAGE value="RootModule" />
@@ -755,7 +757,8 @@
     <MESSAGE value="springMvc_06_rest" />
     <MESSAGE value="mp3" />
     <MESSAGE value="doc init" />
-    <option name="LAST_COMMIT_MESSAGE" value="doc init" />
+    <MESSAGE value="image" />
+    <option name="LAST_COMMIT_MESSAGE" value="image" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
