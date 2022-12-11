@@ -1,5 +1,4 @@
 ---
-title: Note
-icon: alias
+title: 日常笔记
+icon: flow
 ---
-# Note

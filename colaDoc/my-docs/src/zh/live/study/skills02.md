@@ -1,6 +1,7 @@
 ---
 title: Linux 下使用 PM2 实现端口常驻
 icon: study
+order: 2
 ---
 
 # Linux 下使用 PM2 实现端口常驻

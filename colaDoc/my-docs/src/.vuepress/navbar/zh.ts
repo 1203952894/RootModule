@@ -8,6 +8,11 @@ export const zhNavbar = navbar([
     link: "/zh/demo/"
   },
   {
+    text: "Spring",
+    icon: "discover",
+    link: "/zh/spring/"
+  },
+  {
     text: "生活",
     icon: "people",
     prefix: "/zh/live/",

@@ -13,16 +13,20 @@ actions:
 
 features:
 
+- title: 案例学习
+  icon: java
+  details: 入门案例的学习
+  link: demo/
 
 - title: Spring 学习
   icon: activity
   details: Spring 学习记录
-  link: http://localhost:8080/zh/spring/
+  link: spring/
 
 - title: 生活
   icon: people
   details: 记录 2022.11.*
-  link: http://localhost:8080/zh/live/
+  link: live/
 
 copyright: false
 ---

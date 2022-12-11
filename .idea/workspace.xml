@@ -24,6 +24,16 @@
   <component name="ChangeListManager">
     <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/navbar/zh.ts" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/navbar/zh.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/sidebar/zh.ts" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/sidebar/zh.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/demo/markdown.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/note/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/note/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/skills01.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/skills01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/skills02.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/skills02.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/spring/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/spring/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,34 +125,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "DefaultPlantUmlFileTemplate": "Empty",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/colaDoc/my-docs/src/zh/live/study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "b1e4d27a44688456f1a395d086505db4",
-    "ts.external.directory.path": "C:\\Users\\q1203\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\222.4345.14\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true",
-    "writerside.last.selected.productRootModule": "r"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;Empty&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/colaDoc/my-docs/src/zh/live/study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b1e4d27a44688456f1a395d086505db4&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\q1203\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\222.4345.14\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;writerside.last.selected.productRootModule&quot;: &quot;r&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\colaDoc\my-docs\src\zh\live\study" />
@@ -357,7 +367,8 @@
       <workItem from="1670423227446" duration="131000" />
       <workItem from="1670474999514" duration="9848000" />
       <workItem from="1670562640644" duration="4257000" />
-      <workItem from="1670643415568" duration="20560000" />
+      <workItem from="1670643415568" duration="26482000" />
+      <workItem from="1670772763911" duration="139000" />
     </task>
     <task id="LOCAL-00001" summary="Spring">
       <created>1670063752080</created>
@@ -688,7 +699,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670754324747</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="image">
+      <created>1670759101486</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1670759101486</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
