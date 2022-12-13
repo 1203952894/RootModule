@@ -30,6 +30,7 @@
         <module>springMvc/springMvc_05_response</module>
         <module>springMvc/springMvc_04_request_params</module>
         <module>springMvc/springMvc_06_rest</module>
+        <module>springMvc/springMvc_07_layUI</module>
     </modules>
 
     <properties>

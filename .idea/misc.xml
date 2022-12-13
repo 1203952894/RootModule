@@ -9,6 +9,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springMvc/springMvc_04_request_params" />
     <file type="web" url="file://$PROJECT_DIR$/springMvc/springMvc_05_response" />
     <file type="web" url="file://$PROJECT_DIR$/springMvc/springMvc_06_rest" />
+    <file type="web" url="file://$PROJECT_DIR$/springMvc/springMvc_07_layUI" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -16,6 +17,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/commonDays/day_01_playPiano/pom.xml" />
         <option value="$PROJECT_DIR$/commonDays/day_02_ChirstMass2022_XiaoEr_Z/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot/SptingBoot_1_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot/SpringBoot_1_quickstart/pom.xml" />
       </list>
     </option>
   </component>

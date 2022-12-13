@@ -2,38 +2,21 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="springMvc_01_quickstart:war" />
-      <artifact name="springMvc_01_quickstart:war exploded" />
-      <artifact name="springMvc_02_bean_load:war" />
-      <artifact name="springMvc_02_bean_load:war exploded" />
-      <artifact name="springMvc_03_request_mapping:war" />
-      <artifact name="springMvc_03_request_mapping:war exploded" />
-      <artifact name="springMvc_04_request_param:war" />
-      <artifact name="springMvc_04_request_param:war exploded" />
-      <artifact name="springMvc_04_request_params:war" />
-      <artifact name="springMvc_04_request_params:war exploded" />
-      <artifact name="springMvc_05_response:war" />
-      <artifact name="springMvc_05_response:war exploded" />
-      <artifact name="springMvc_06_rest:war" />
-      <artifact name="springMvc_06_rest:war exploded" />
+      <artifact name="springMvc_07_layUI:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="image">
+    <list default="true" id="0b785f17-31b5-443f-b722-5ac04b4e507d" name="变更" comment="完善doc">
+      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_07_layUI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_07_layUI/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMvc/springMvc_07_layUI/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/navbar/zh.ts" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/navbar/zh.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/sidebar/zh.ts" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/sidebar/zh.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/demo/markdown.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/note/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/note/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/skills01.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/skills01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/skills02.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/live/study/skills02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/spring/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/colaDoc/my-docs/src/zh/spring/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +37,9 @@
         <option value="mybatis-config" />
         <option value="Jsp File" />
         <option value="Interface" />
-        <option value="Class" />
-        <option value="HTML File" />
         <option value="MarkDown" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -114,6 +97,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
@@ -125,55 +115,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;Empty&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/colaDoc/my-docs/src/zh/live/study&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b1e4d27a44688456f1a395d086505db4&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\q1203\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\222.4345.14\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;writerside.last.selected.productRootModule&quot;: &quot;r&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "DefaultPlantUmlFileTemplate": "Empty",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_SSM/RootModule/springMvc/springMvc_07_layUI/src/main/webapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "5d27b128b0b8984b3f8d1a1670e36f4a",
+    "ts.external.directory.path": "C:\\Users\\q1203\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\222.4345.14\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true",
+    "writerside.last.selected.productRootModule": "r"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_07_layUI\src\main\webapp" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_07_layUI\src\main\resources" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_07_layUI\src\main\java\xyz" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\colaDoc\my-docs\src\zh\live\study" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\commonDays\day_02_ChirstMass2022_XiaoEr_Z\src\main\resources" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\colaDoc\my-docs\src\demo" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\colaDoc\my-docs\src\.vuepress\public" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\commonDays\day_01_playPiano" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_07_layUI\src\main\webapp\layui" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_07_layUI\src\main\webapp\layui\page" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_07_layUI\src\main\webapp" />
+      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_07_layUI\src\main\webapp\js" />
       <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\commonDays\day_02_ChirstMass2022_XiaoEr_Z\src\main\resources" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\springMvc\springMvc_05_response\src\main\webapp\user" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\help-module\cfg" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\help-module" />
-      <recent name="E:\2022_snowHosbility\study\heima\2022_SSM\RootModule\spring\spring_03_beanInstance\src\test\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="xyz.ccola" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="xyz.ccola.dao.impl" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.docs:build">
+  <component name="RunManager" selected="Spring Boot.SpringBoot1QuickstartApplication">
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.ccola.test.Test1" />
       <module name="day_01_playPiano" />
@@ -210,14 +207,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBoot1QuickstartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SptingBoot_1_quickstart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.ccola.SpringBoot1QuickstartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SptingBoot1QuickstartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBoot_1_quickstart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.ccola.SpringBoot1QuickstartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <file path="$PROJECT_DIR$/colaDoc/my-docs/src/.vuepress/dist">
+        <artifact name="springMvc_07_layUI:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/dist" />
+            <option name="CONTEXT_PATH" value="/springMvc_07_layUI_war" />
           </settings>
-        </file>
+        </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="c90a0a2b-7ec4-4309-ad67-f91abb39b8e9" />
@@ -292,7 +303,9 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="false" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springMvc_07_layUI:war" />
+        </option>
       </method>
     </configuration>
     <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -319,6 +332,8 @@
       <item itemvalue="JUnit.SpringAopTest.testAop" />
       <item itemvalue="npm.docs:build" />
       <item itemvalue="npm.docs:dev" />
+      <item itemvalue="Spring Boot.SpringBoot1QuickstartApplication" />
+      <item itemvalue="Spring Boot.SptingBoot1QuickstartApplication" />
       <item itemvalue="Tomcat 服务器.Tomcat 9.0.56" />
       <item itemvalue="应用程序.Test1" />
       <item itemvalue="应用程序.Test2" />
@@ -368,14 +383,11 @@
       <workItem from="1670474999514" duration="9848000" />
       <workItem from="1670562640644" duration="4257000" />
       <workItem from="1670643415568" duration="26482000" />
-      <workItem from="1670772763911" duration="139000" />
-    </task>
-    <task id="LOCAL-00001" summary="Spring">
-      <created>1670063752080</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1670063752080</updated>
+      <workItem from="1670772763911" duration="315000" />
+      <workItem from="1670920828757" duration="142000" />
+      <workItem from="1670921204569" duration="4069000" />
+      <workItem from="1670925449370" duration="888000" />
+      <workItem from="1670927837645" duration="2175000" />
     </task>
     <task id="LOCAL-00002" summary="整理结构">
       <created>1670064340154</created>
@@ -706,7 +718,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670759101486</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="完善doc">
+      <created>1670773012606</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1670773012607</updated>
+    </task>
+    <task id="LOCAL-00050" summary="完善doc">
+      <created>1670773036788</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1670773036788</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,7 +777,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加 spring_10_container 模块" />
     <MESSAGE value="spring_10_container 模块 初始化" />
     <MESSAGE value="RootModule" />
     <MESSAGE value="spring_10_container 模块" />
@@ -776,7 +801,8 @@
     <MESSAGE value="mp3" />
     <MESSAGE value="doc init" />
     <MESSAGE value="image" />
-    <option name="LAST_COMMIT_MESSAGE" value="image" />
+    <MESSAGE value="完善doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善doc" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
