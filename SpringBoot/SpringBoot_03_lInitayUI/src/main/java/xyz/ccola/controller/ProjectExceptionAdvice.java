@@ -21,12 +21,12 @@ public class ProjectExceptionAdvice {
     @ExceptionHandler(SystemException.class)
     public xyz.ccola.controller.Result doSystemException(SystemException ex){
 
-        return new xyz.ccola.controller.Result(ex.getCode(),null,ex.getMessage());
+        return new Result(ex.getCode(), null, ex.getMessage());
     }
 
     @ExceptionHandler(BusinessException.class)
     public xyz.ccola.controller.Result doBusinessException(BusinessException ex){
-        return new xyz.ccola.controller.Result(ex.getCode(),null,ex.getMessage());
+        return new Result(ex.getCode(), null, ex.getMessage());
     }
 
     @ExceptionHandler(Exception.class)
