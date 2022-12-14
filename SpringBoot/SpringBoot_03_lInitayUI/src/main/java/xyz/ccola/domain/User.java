@@ -1,5 +1,6 @@
 package xyz.ccola.domain;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -19,5 +20,6 @@ public class User {
     private Integer id;
     private String username;
     private Integer age;
-    private Integer vip_id;
+    @TableField("vip_id")
+    private Integer vipId;
 }
